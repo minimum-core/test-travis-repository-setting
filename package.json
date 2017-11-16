@@ -4,7 +4,7 @@
   "description": "travis ciのrepository settingsから登録した環境変数がフォークしたリポジトリから参照できないか確認",
   "main": "index.js",
   "scripts": {
-    "test": "echo '> echo $secret' && echo $secret"
+    "test": "echo '> node index.js' && node index.js"
   },
   "repository": {
     "type": "git",
