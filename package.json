@@ -1,0 +1,19 @@
+{
+  "name": "test-travis-repository-setting",
+  "version": "1.0.0",
+  "description": "travis ciのrepository settingsから登録した環境変数がフォークしたリポジトリから参照できないか確認",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo '$SECRET' && echo $SECRET"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minimum-core/test-travis-repository-setting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minimum-core/test-travis-repository-setting/issues"
+  },
+  "homepage": "https://github.com/minimum-core/test-travis-repository-setting#readme"
+}
