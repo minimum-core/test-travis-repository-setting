@@ -1,1 +1,1 @@
-console.log(process.env.secret);
+console.log(process.env.secret.length);
